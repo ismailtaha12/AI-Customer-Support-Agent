@@ -1,0 +1,5 @@
+{"id":"t1","message":"When is my next appointment?","expectedIntent":"account","expectedTools":["list_appointments"],"expectEscalation":false}
+{"id":"t2","message":"Did I have any visits in the last month?","expectedIntent":"account","expectedTools":["list_appointments"],"expectEscalation":false}
+{"id":"t3","message":"This is the third time my video visit failed and I am really frustrated. I want to talk to a person.","expectedIntent":"complaint","expectedTools":[],"expectEscalation":true}
+{"id":"t4","message":"What is the capital of France?","expectedIntent":"off_topic","expectedTools":[],"expectEscalation":false}
+{"id":"t5","message":"How much is the late cancellation fee?","expectedIntent":"faq","expectedTools":[],"expectEscalation":false}
